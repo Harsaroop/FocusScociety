@@ -18,7 +18,7 @@ from django.urls import path
 from Chatbot import views
 
 urlpatterns = [
-    # path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('index/', views.index),
     path('app1/', views.app1),
     path('app2/', views.app2),
