@@ -8,4 +8,4 @@ def index(request):
     return render(request, 'Chatbot/index.html')
 
 def app2(request):
-    return render(request, 'chatbot/app2.html')
+    return render(request, 'Chatbot/app2.html')
