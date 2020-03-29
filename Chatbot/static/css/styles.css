@@ -35,3 +35,8 @@ body{
     background-color: white;
 }
 
+#center-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
